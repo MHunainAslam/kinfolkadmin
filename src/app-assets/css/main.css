@@ -1,0 +1,40 @@
+.roles-checkbox fieldset label {
+    margin-block: auto;
+    padding-left: 10px;
+}
+
+.roles-checkbox fieldset {
+    margin-block: 5px;
+}
+
+.table-icon {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.user-profile-page .user-profile-text {
+    position: unset !important;
+}
+
+.user-profile-page .user-profile-buttons {
+    padding: 0 !important;
+}
+
+.educational-sec ul li p {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.educational-sec [class^="ft-"],
+[class*=" ft-"] {
+    line-height: unset;
+}
+
+.nav-active {
+    background-color: antiquewhite;
+    color: #7441dd !important;
+    border-radius: 5px;
+}
+.tab-active-bg{
+    background-color: #7441dd;
+}
