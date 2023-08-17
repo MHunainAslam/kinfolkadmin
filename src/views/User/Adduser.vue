@@ -15,7 +15,7 @@
                     <div class="card-content">
                       <div class="card-body">
                         <div class="row">
-                          <div class="col-md-12">
+                          <div class="col-md-6">
                             <fieldset class="form-group">
                               <label for="addusername">Name</label>
                               <input
@@ -26,7 +26,7 @@
                               />
                             </fieldset>
                           </div>
-                          <div class="col-md-12">
+                          <div class="col-md-6">
                             <fieldset class="form-group">
                               <label for="addruseremail">Email</label>
                               <input

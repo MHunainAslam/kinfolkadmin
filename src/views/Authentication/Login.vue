@@ -20,7 +20,7 @@
                           class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center auth-img-bg p-3"
                         >
                           <img
-                            src="../app-assets/img/gallery/login.png"
+                            src="../../app-assets/img/gallery/login.png"
                             alt=""
                             class="img-fluid"
                             width="300"

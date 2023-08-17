@@ -7,74 +7,78 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  },
+  
   {
     path: '/login',
     name: 'login',
     meta: { showNavbar: true },
-    component: () => import('../views/Login.vue')
+    component: () => import('../views/Authentication/Login.vue')
   },
   {
     path: '/forget',
     name: 'forget',
     meta: { showNavbar: true },
-    component: () => import('../views/Forget.vue')
+    component: () => import('../views/Authentication/Forget.vue')
+  },
+  {
+    path: '/resetpassword/:id',
+    name: 'reset',
+    component: () => import('../views/Authentication/Resetpassword.vue')
   },
   {
     path: '/register',
     name: 'register',
     meta: { showNavbar: true },
-    component: () => import('../views/Register.vue')
+    component: () => import('../views/Authentication/Register.vue')
   },
   {
     path: '/roles',
     name: 'roles',
-    component: () => import('../views/Roles.vue'),
+    component: () => import('../views/Roles/Roles.vue'),
     
   },
   {
     path: '/roles/create',
     name: 'addroles',
-    component: () => import('../views/Addroles.vue'),
+    component: () => import('../views/Roles/Addroles.vue'),
     
   },
   {
     path: '/roles/:id',
     name: 'rolesedit',
-    component: () => import('../views/Rolesedit.vue'),
+    component: () => import('../views/Roles/Rolesedit.vue'),
     props: true
     
   },
   {
     path: '/user/edit/:id',
     name: 'useredit',
-    component: () => import('../views/Useredit.vue'),
+    component: () => import('../views/User/Useredit.vue'),
     props: true
     
   },
   {
     path: '/user',
     name: 'user',
-    component: () => import('../views/User.vue'),
+    component: () => import('../views/User/User.vue'),
 
   },
   {
     path: '/user/create',
     name: 'usercreate',
-    component: () => import('../views/Adduser.vue'),
+    component: () => import('../views/User/Adduser.vue'),
 
   },
   {
     path: '/user/show/:id',
     name: 'userprofile',
-    component: () => import('../views/Userprofile.vue'),
+    component: () => import('../views/User/Userprofile.vue'),
+
+  },
+  {
+    path: '/user/loginsessions/:id',
+    name: 'loginsession',
+    component: () => import('../views/User/Loginsession.vue'),
 
   },
 

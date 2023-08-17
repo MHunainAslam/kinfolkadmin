@@ -19,7 +19,7 @@
                           class="col-lg-6 d-none d-lg-flex justify-content-center align-items-center text-center auth-img-bg py-2"
                         >
                           <img
-                            src="../app-assets/img/gallery/forgot.png"
+                            src="../../app-assets/img/gallery/forgot.png"
                             alt=""
                             class="img-fluid"
                             width="260"
